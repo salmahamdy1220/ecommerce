@@ -20,6 +20,6 @@ use Modules\Reviews\Http\Controllers\ReviewsController;
 
 Route::prefix('admin')->middleware(['auth:admin', 'verified' ,'checkRoleReviews'])->group(function(){
     Route::resource('reviews', ReviewsController::class);
-
+sss
 });
 
